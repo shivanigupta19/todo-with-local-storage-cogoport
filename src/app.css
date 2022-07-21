@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0e1a2d;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.todoList{
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: 20px 0;
+    width: 500px;
+    position: relative;
+}
+
+
+.addTodo   {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 8px;
+    height: 50px;
+    width: 800px;
+    background-color: white;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    
+}
+.checkbox{
+    height: 15px;
+    width: 15px;
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid  black;
+    align-self: center;
+}
+.checked{
+    text-decoration: line-through;
+}
+.button {
+    margin-left: 20px;
+    background-color:  rgb(132, 15, 15);
+    color: #fff;
+    height: 50px;
+    width: 100px;
+    border-color: #fff;
+  }
+
+  .text{
+    font-size: 18px;
+    padding-left: 20px;
+    color: rgb(132, 15, 15);
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  .line{
+    text-decoration: line-through;
+    text-decoration-color: rgb(132, 15, 15);
+    color: rgb(132, 15, 15);
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .close {
+    color: #fff;
+    background-color:  rgb(132, 15, 15);
+    font-size: 20px;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-left: 50px;
+    border: 1px solid  black;
+  }
+
+.row{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.todo{
+  text-align: start;
+  justify-content: center;
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
